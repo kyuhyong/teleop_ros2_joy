@@ -1,0 +1,8 @@
+teleop_joy_node:
+  ros__parameters:
+    test: 
+      array: ['1','2','3']
+    max_fwd_m_s: 0.23
+    max_rev_m_s: 0.20
+    max_deg_s: 20.0
+    use_sim_time: false
