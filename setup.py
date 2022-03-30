@@ -19,8 +19,8 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Kyuhyong You',
-    maintainer_email='kyuhyong@omorobot.com',
-    description='TODO: Package description',
+    maintainer_email='kyuhyong@gmail.com',
+    description='Very simple xbox type joystick teleop controller',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={

@@ -26,7 +26,7 @@ def generate_launch_description():
       'config_filepath', default_value=[
         TextSubstitution(text=os.path.join(
           get_package_share_directory('teleop_joy'), 'config', '')),
-          joy_config, TextSubstitution(text='.config.yaml')]),
+          'teleop_joy', TextSubstitution(text='.config.yaml')]),
     Node(
       package='joy', executable='joy_node', name='joy_node',
       parameters=[{
